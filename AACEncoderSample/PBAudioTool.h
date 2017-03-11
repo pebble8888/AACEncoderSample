@@ -10,4 +10,5 @@
 
 @interface PBAudioTool : NSObject
 + (AudioStreamBasicDescription)monoWAVWithSampleRate:(uint32_t)sampleRate;
++ (AudioStreamBasicDescription)stereoWAVWithSampleRate:(uint32_t)sampleRate;
 @end
